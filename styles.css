@@ -1,4 +1,5 @@
 body {
+    display: flex;
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,6 +14,24 @@ body {
     justify-content: center;     /*centrar*/
     text-align: center;     /*centradas*/
     width: 600px;   /*ancho de cada publicacion*/
-    
+    max-width: 600px;
 }
 
+.post-title {
+    display: flex;
+}
+
+.post-title img{
+    width: 80px;     
+    height: 80px;
+}
+
+.post-image img {
+    width: 100%;    /* La imagen ocupará el 100% del ancho de su contenedor */
+    height: auto;   /* Mantiene la relación de aspecto de la imagen */
+}
+
+.icons {
+    display: flex;
+
+}
